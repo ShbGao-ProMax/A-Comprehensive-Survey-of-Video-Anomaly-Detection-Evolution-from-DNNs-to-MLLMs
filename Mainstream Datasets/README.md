@@ -83,16 +83,70 @@ Traditional WVAD Datasets
 | UCf-Crime Extension   | Crime        | 2183          | 14,475,793   | 15                 | Frame         | Classify      |       |
 | XD-Violence           | Violence     | 800           | 114,096      | 6                  | Frame         | Classify      | ✔     |
 | TAD                   | Traffic      | 344           | 721,280      | 4                  | Bounding-box  |               |       |
-| BOSS                  | Multiple     | 16            | 48,624       | 11                 | Frame         | Classify      | ✔     |
 | CamNuvem              | Robbery      | 486           | 6,151,788    | 1                  | Frame         |               |       |
 | UCVL (Not released)   | Crime        | 1699          |              | 13                 | Frame         | Classify      |       |
 | DoTA                  | Traffic      | 4677          | 731,932      | 1                  | Frame         |               |       |
+
+### UCF-Crimes  2018
+
+UCF-Crime Extension is an expanded version of the UCF-Crimes dataset, with an increased number of videos (2183) and total frames (about 14.5 million), as well as more anomaly categories (from 13 to 15, including new types like "murder" and "public drinking"). The dataset continues with frame-level annotations and is suitable for event classification and detection. With its larger scale and more diverse crime types, it offers a more realistic testbed for generalization.
+
+HomePage: [link](https://www.crcv.ucf.edu/projects/real-world/#:~:text=We%20construct%20a%20new%20large,Stealing%2C%20Shoplifting%2C%20and%20Vandalism.)
+
+### UCf-Crime Extension 2021
+
+UCF-Crime Extension is an expanded version of the UCF-Crimes dataset, with an increased number of videos (2183) and total frames (about 14.5 million), as well as more anomaly categories (from 13 to 15, including new types like "murder" and "public drinking"). The dataset continues with frame-level annotations and is suitable for event classification and detection. With its larger scale and more diverse crime types, it offers a more realistic testbed for generalization.
+
+HomePage: [link](https://github.com/hibrahimozturk/temporal_anomaly_detection)
+
+### XD-Violence 2021
+
+XD-Violence is a large-scale dataset focused on the detection of violent and abnormal behaviors, featuring 800 video clips and over 114,000 frames. It covers 6 classes of violence and anomalies (e.g., fighting, quarrel, robbery, etc.). Each video contains audio (✔), enabling research in multimodal (audio-visual) anomaly detection. All anomalies are labeled at the frame level, making the dataset suitable for classification and localization tasks.
+
+HomePage: [link](https://roc-ng.github.io/XD-Violence/)
+
+### TAD 2021
+
+TAD is a traffic-focused anomaly detection dataset, consisting of 344 videos and over 721,000 frames. Anomalies include 4 main types such as traffic accidents, overspeeding, and wrong-way driving. All anomalies are annotated at the object level (bounding box), enabling precise localization. The dataset is suitable for traffic event detection and autonomous driving safety research, covering a variety of environments like city roads and highways.
+
+HomePage: [link](https://github.com/ktr-hubrt/WSAL)
+
+### CamNuvem 2022
+
+CamNuvem is a robbery-focused anomaly detection dataset, consisting of 486 video clips and approximately 6.15 million frames. All videos are from real surveillance scenarios, with a single anomaly category: robbery. Each anomaly is frame-level annotated. The dataset covers diverse scenes, such as banks, gas stations, and stores, making it a leading dataset for robbery event detection in surveillance video research.
+
+HomePage: [link](https://github.com/daviduarte/camnuvem-dataset)
+
+### UCVL (Not released) 2024
+
+UCVL (UCF Crime Video Localization) is a new dataset developed by the UCF team for localization of crime events, containing 1699 videos and 13 types of crimes and anomalies, all frame-level annotated. The dataset emphasizes spatio-temporal localization of anomalous events, enhancing practical utility in real surveillance scenarios. Note: This dataset has not been publicly released; refer to the following links for related papers and examples.
+
+HomePage: Not released
+
+### DoTA 2021
+
+DoTA is one of the largest datasets for traffic anomaly detection, with 4677 video clips and about 731,932 frames. All videos are collected from real traffic cameras, focusing on a single anomaly type: traffic accidents. Anomalies are labeled at the frame level. DoTA features diverse scenes, including various weather conditions, traffic flows, and road types, making it highly suitable for research in autonomous driving and intelligent transportation.
+
+HomePage: [link](https://captain-whu.github.io/DOTA/dataset.html)
 
 Open-world Datasets
 ----
 | Dataset               | Domain       | Video Samples | Total Frames | Anomaly Categories | Location      | Understanding | Audio |
 |-----------------------|-------------|---------------|--------------|--------------------|---------------|---------------|-------|
 | Ubnormal              | Multiple     | 543           | 236,902      | 22                 | Pixel         | Classify      |       |
+
+### Ubnormal 2021
+
+Ubnormal is a large-scale, multi-scene, multi-category video anomaly detection dataset released by the UPC (Universitat Politècnica de Catalunya) team in 2023. It consists of 543 videos and 236,902 frames, covering 22 categories of anomalies (such as fighting, stealing, fainting, crowd gathering, jaywalking, etc.) across various scenes (streets, malls, subways, campuses, traffic, etc.).
+
+A key feature of Ubnormal is its pixel-level annotation, which not only marks the frames containing anomalies but also provides precise pixel-wise segmentation of the anomalous objects—an extremely rare property among anomaly datasets.
+
+All events are also multi-label classified, supporting complex scenarios where multiple anomalies may occur simultaneously. Ubnormal is suitable for anomaly detection, localization, video segmentation, and action recognition tasks, making it one of the most comprehensive and challenging benchmarks in video anomaly detection.
+
+The dataset does not include audio.
+
+HomePage: [link](https://github.com/lilygeorgescu/UBnormal)
+
 
 LLM-based Datasets
 ----
