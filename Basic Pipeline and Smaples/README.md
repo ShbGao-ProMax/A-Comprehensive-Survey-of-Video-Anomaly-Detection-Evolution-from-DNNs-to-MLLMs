@@ -1,4 +1,4 @@
-Basic Pipeline and Smaples
+Basic Pipeline, Performance and Smaples
 ====
 
 Semi-supervised VAD
