@@ -15,6 +15,10 @@ To provide a unified analytical perspective, we propose a new classification fra
 
 ***In the figure, the flame icon indicates nodes where methods utilizing VLM/LLM have emerged.***
 
+[Publications](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Publications)\
+----
+
+
 [Evaluation Metrics](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Evaluation%20Metrics)
 ----
 In the Evaluation Metrics, we will introduce commonly used evaluation metrics in the field of Video Anomaly Detection and provide corresponding examples.
@@ -23,3 +27,13 @@ In the Evaluation Metrics, we will introduce commonly used evaluation metrics in
 [Mainstream Datasets](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Mainstream%20Datasets)
 ----
 In the Mainstream Datasets section, we offer a comprehensive overview of various types of datasets and visually present them in tabular form for clarity and ease of comparison.
+
+
+[Basic Pipeline and Smaples](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Basic%20Pipeline%20and%20Smaples)
+----
+
+
+[Taxonomy](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Taxonomy)
+----
+
+
