@@ -33,7 +33,7 @@ In the Evaluation Metrics, we will introduce commonly used evaluation metrics in
 In the Mainstream Datasets section, we offer a comprehensive overview of various types of datasets and visually present them in tabular form for clarity and ease of comparison.
 
 
-[Basic Pipeline and Smaples](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Basic%20Pipeline%20and%20Smaples)
+[Basic Pipeline, Performance and Smaples](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Basic%20Pipeline%20and%20Smaples)
 ----
 In the Basic Pipeline and Samples, we provide a fundamental pipeline for each category of VAD, along with representative examples of typical works within each category.
 
