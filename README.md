@@ -13,6 +13,8 @@ The introduction of LLMs has expanded and restructured the VAD field, making VLM
 
 To provide a unified analytical perspective, we propose a new classification framework covering five dimensions: Task Objective, Task Modality, Input Modality, Model Architecture, and Model Optimization, applicable to both traditional and large-model VAD. Dimensions with a flame icon indicate areas most transformed by large-model technologies.
 
+***In the figure, the flame icon indicates nodes where methods utilizing VLM/LLM have emerged.***
+
 [Evaluation Metrics](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Evaluation%20Metrics)
 ----
 In the Evaluation Metrics, we will introduce commonly used evaluation metrics in the field of Video Anomaly Detection and provide corresponding examples.
