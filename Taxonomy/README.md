@@ -7,6 +7,10 @@ Due to the difficulty of collecting anomalous data and the labor-intensive natur
 
 Although the task objectives of VAD under different supervision paradigms are similar, they involve distinct training and testing setups. We illustrate these differences in the fig.
 
+Comparison diagram between different types of VAD tasks
+----
+![Comparison](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/pic/difference.png)
+
 Semi-supervised VAD
 ----
 Semi-supervised VAD assumes that training videos only contain normal events during the training phase, i.e.,
