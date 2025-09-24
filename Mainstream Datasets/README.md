@@ -135,7 +135,7 @@ Open-world Datasets
 |-----------------------|-------------|---------------|--------------|--------------------|---------------|---------------|-------|
 | Ubnormal              | Multiple     | 543           | 236,902      | 22                 | Pixel         | Classify      |       |
 
-### Ubnormal 2021
+### Ubnormal 2022
 
 Ubnormal is a large-scale, multi-scene, multi-category video anomaly detection dataset released by the UPC (Universitat Politècnica de Catalunya) team in 2023. It consists of 543 videos and 236,902 frames, covering 22 categories of anomalies (such as fighting, stealing, fainting, crowd gathering, jaywalking, etc.) across various scenes (streets, malls, subways, campuses, traffic, etc.).
 
