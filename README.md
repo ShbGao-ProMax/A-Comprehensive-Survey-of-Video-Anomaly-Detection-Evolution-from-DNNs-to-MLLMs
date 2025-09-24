@@ -3,11 +3,15 @@ This is a supplementary resource to “A Comprehensive Survey of Video Anomaly D
 
 Here, we provide an overview of the most commonly used evaluation metrics and datasets in the field of VAD, as well as detailed explanations and major examples of different types of VAD methods. In addition, we will continuously maintain this project and promptly incorporate the latest VAD papers into our framework for researchers' reference.
 
+Unified VAD Framework
+----
+![The unified analytical framework encompassing all types of VAD](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/pic/main.png)
 
+Our analysis shows that VLM/LLM-based VAD methods represent a paradigm shift from traditional DNN-based approaches. Treating them as the same lacks theoretical support, although some VLM methods retain or inherit key features of traditional paradigms (e.g., HAWK uses optical flow, VANE-Bench uses pseudo-anomaly sampling).
 
+The introduction of LLMs has expanded and restructured the VAD field, making VLM/LLM-based methods relatively independent yet methodologically continuous and complementary to DNN-based VAD.
 
-
-
+To provide a unified analytical perspective, we propose a new classification framework covering five dimensions: Task Objective, Task Modality, Input Modality, Model Architecture, and Model Optimization, applicable to both traditional and large-model VAD. Dimensions with a flame icon indicate areas most transformed by large-model technologies.
 
 [Evaluation Metrics](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Evaluation%20Metrics)
 ----
