@@ -14,5 +14,6 @@ Here, we provide an overview of the most commonly used evaluation metrics and da
 In the Evaluation Metrics, we will introduce commonly used evaluation metrics in the field of Video Anomaly Detection and provide corresponding examples.
 
 
-[Mainstream Datasets]
+[Mainstream Datasets](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Mainstream%20Datasets)
 ----
+In the Mainstream Datasets section, we offer a comprehensive overview of various types of datasets and visually present them in tabular form for clarity and ease of comparison.
