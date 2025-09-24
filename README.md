@@ -10,5 +10,9 @@ Here, we provide an overview of the most commonly used evaluation metrics and da
 
 
 [Evaluation Metrics](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Evaluation%20Metrics)
-
+----
 In the Evaluation Metrics, we will introduce commonly used evaluation metrics in the field of Video Anomaly Detection and provide corresponding examples.
+
+
+[Mainstream Datasets]
+----
