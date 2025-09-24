@@ -15,7 +15,7 @@ To provide a unified analytical perspective, we propose a new classification fra
 
 ***In the figure, the flame icon indicates nodes where methods utilizing VLM/LLM have emerged.***
 
-[Publications](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Publications)
+[! Publications !](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Publications)
 ----
 In the Publications section, we present both seminal and recent works on VAD according to the Unified framework we propose. 
 
