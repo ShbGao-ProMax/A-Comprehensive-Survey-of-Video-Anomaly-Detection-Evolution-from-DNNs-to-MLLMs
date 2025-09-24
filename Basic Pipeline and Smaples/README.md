@@ -28,6 +28,7 @@ On classic benchmarks like Ped2 and Avenue, the AUC scores of state-of-the-art a
 | VADMamba [16]   | 2025 | 98.5%     | 91.5%       | 77.0%       | /            |
 | MA-PDM [17]     | 2025 | 98.6%     | 91.3%       | 79.2%       | 63.4%        |
 
+```
 [1] M. Hasan, J. Choi, J. Neumann, A. K. Roy-Chowdhury, and L. S. Davis, “Learning temporal regularity in video sequences,” in Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 733–742.
 
 [2] Y. Zhao, B. Deng, C. Shen, Y. Liu, H. Lu, and X.-S. Hua, “Spatio-temporal autoencoder for video anomaly detection,” in Proceedings of the 25th ACM international conference on Multimedia, 2017, pp. 1933–1941.
@@ -61,6 +62,7 @@ On classic benchmarks like Ped2 and Avenue, the AUC scores of state-of-the-art a
 [16] J. Lyu, M. Zhao, J. Hu, X. Huang, Y. Chen, and S. Du, “Vadmamba: Exploring state space models for fast video anomaly detection,” arXiv preprint arXiv:2503.21169, 2025.
 
 [17] H. Zhou, J. Cai, Y. Ye, Y. Feng, C. Gao, J. Yu, Z. Song, and W. Yang, “Video anomaly detection with motion and appearance guided patch diffusion model,” in Proceedings of the AAAI Conference on Artificial Intelligence, vol. 39, no. 10, 2025, pp. 10761–10769.
+```
 
 Weakly Supervised VAD
 ----
@@ -83,6 +85,7 @@ As shown, the AUC scores on classic weakly-supervised datasets such as UCF-Crime
 | CLIP-TSA [27]   | 2024 | 87.58%         | 82.19%           | 98.32%      |
 | CMFVAD [28]     | 2024 | /              | 86.34%           | /           |
 
+```
 [18] W. Sultani, C. Chen, and M. Shah, “Real-world anomaly detection in surveillance videos,” in Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 6479–6488.
 
 [19] J.-X. Zhong, N. Li, W. Kong, S. Liu, T. H. Li, and G. Li, “Graph convolutional label noise cleaner: Train a plug-and-play action classifier for anomaly detection,” in Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2019, pp. 1237–1246.
@@ -104,6 +107,7 @@ As shown, the AUC scores on classic weakly-supervised datasets such as UCF-Crime
 [27] H. K. Joo, K. Vo, K. Yamazaki, and N. Le, “Clip-tsa: Clip-assisted temporal self-attention for weakly-supervised video anomaly detection,” in 2023 IEEE International Conference on Image Processing (ICIP). IEEE, 2023, pp. 3230–3234.
 
 [28] A. Ghadiya, P. Kar, V. Chudasama, and P. Wasnik, “Cross-modal fusion and attention mechanism for weakly supervised video anomaly detection,” in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024, pp. 1965–1974.
+```
 
 Unsupervised VAD
 ----
@@ -125,6 +129,7 @@ It can be observed that, although recent approaches have made noticeable advance
 | CKNN [37]        | 2024 | /              | /               | /         | 94.1%       | 89.0%       |
 | InterUVAD [38]   | 2024 | /              | /               | /         | /           | 88.2%       |
 
+```
 [29] R. Tudor Ionescu, S. Smeureanu, B. Alexe, and M. Popescu, “Unmasking the abnormal events in video,” in Proceedings of the IEEE international conference on computer vision, 2017, pp. 2895–2903.
 
 [30] S. Wang, Y. Zeng, Q. Liu, C. Zhu, E. Zhu, and J. Yin, “Detecting abnormality without knowing normality: A two-stage approach for unsupervised video abnormal event detection,” in Proceedings of the 26th ACM international conference on Multimedia, 2018, pp. 636–644.
@@ -144,6 +149,7 @@ It can be observed that, although recent approaches have made noticeable advance
 [37] J. Yi and S. Yoon, “Cknn: Cleansed k-nearest neighbor for unsupervised video anomaly detection,” in Proceedings of the 33rd ACM International Conference on Information and Knowledge Management, 2024, pp. 3002–3011.
 
 [38] Y. Nie, H. Huang, C. Long, Q. Zhang, P. Maji, and H. Cai, “Interleaving one-class and weakly-supervised models with adaptive thresholding for unsupervised video anomaly detection,” in European Conference on Computer Vision. Springer, 2024, pp. 449–467.
+```
 
 Open-set VAD
 ----
@@ -163,6 +169,7 @@ While OSVAD methods have achieved competitive results on certain datasets, their
 |                   |      |                |                  | (10 shot) | (10 shot)   |             |
 | Aich et al. [43]  | 2023 | /              | /                | 96.95%    | /           | 71.60%      |
 
+```
 [39] W. Liu, W. Luo, Z. Li, P. Zhao, S. Gao et al., “Margin learning embedded prediction for video anomaly detection with a few anomalies,” in IJCAI, vol. 3, 2019, pp. 023–3.
 
 [40] Y. Zhu, W. Bao, and Q. Yu, “Towards open set video anomaly detection,” in European Conference on Computer Vision. Springer, 2022, pp. 395–412.
@@ -172,6 +179,7 @@ While OSVAD methods have achieved competitive results on certain datasets, their
 [42] X. Huang, Y. Hu, X. Luo, J. Han, B. Zhang, and X. Cao, “Boosting variational inference with margin learning for few-shot scene-adaptive anomaly detection,” IEEE Transactions on Circuits and Systems for Video Technology, vol. 33, no. 6, pp. 2813–2825, 2022.
 
 [43] A. Aich, K.-C. Peng, and A. K. Roy-Chowdhury, “Cross-domain video anomaly detection without target domain adaptation,” in Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, 2023, pp. 2579–2591.
+```
 
 Open-vocabulary VAD
 ----
@@ -188,11 +196,13 @@ The result reflects that OVVAD, as an emerging research direction, is still in i
 | LaGoVAD [45]          | 2025 | UCF-Crime(Acc) 51.72% XD-Violence(Acc) 78.13%                         |
 | Yang and Radke [46]   | 2025 | Street Scene(AUC) 67.0% Ped2(AUC) 99.0% SHTech(AUC) 81.3%             |
 
+```
 [44] P. Wu, X. Zhou, G. Pang, Y. Sun, J. Liu, P. Wang, and Y. Zhang, “Open-vocabulary video anomaly detection,” in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024, pp. 18297–18307.
 
 [45] Z. Liu, X. Wu, J. Wu, X. Wang, and L. Yang, “Language-guided open world video anomaly detection,” arXiv preprint arXiv:2503.13160, 2025.
 
 [46] Z. Yang and R. J. Radke, “Detecting contextual anomalies by discovering consistent spatial regions,” arXiv preprint arXiv:2501.08470, 2025.
+```
 
 Training-free VAD
 ----
@@ -209,6 +219,7 @@ The result demonstrates that the TVAD paradigm, which focuses on temporal or seg
 | VADSK [50]            | 2025 | /              | /               | 86.50%    | 74.20%      | 75.30%      |
 | VERA [51]             | 2025 | 86.55%         | 88.26%(AUC)     | /         | /           | /           |
 
+```
 [47] L. Zanella, W. Menapace, M. Mancini, Y. Wang, and E. Ricci, “Harnessing large language models for training-free video anomaly detection,” in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024, pp. 18527–18536.
 
 [48] Y. Yang, K. Lee, B. Dariush, Y. Cao, and S.-Y. Lo, “Follow the rules: reasoning for video anomaly detection with large language models,” in European Conference on Computer Vision. Springer, 2024, pp. 304–322.
@@ -218,6 +229,7 @@ The result demonstrates that the TVAD paradigm, which focuses on temporal or seg
 [50] T. Foltz, “Video anomaly detection with structured keywords,” arXiv preprint arXiv:2503.10653, 2025.
 
 [51] M. Ye, W. Liu, and P. He, “Vera: Explainable video anomaly detection via verbalized learning of vision-language models,” in Proceedings of the Computer Vision and Pattern Recognition Conference, 2025, pp. 8679–8688.
+```
 
 Instruction Tuning VAD
 ----
@@ -238,7 +250,7 @@ The result shows that ITVAD methods, by leveraging large language and multi-moda
 | UCVL [57]           | 2025 | UCVL(GPT-4o) 63.8                                                                                                               |
 | SlowFastVAD [58]    | 2025 | Ped2(AUC) 99.10% Avenue(AUC) 89.6% SHTech(AUC) 85.0% |
 
-
+```
 [52] H. Lv and Q. Sun, “Video anomaly detection and explanation via large language models,” arXiv preprint arXiv:2401.05702, 2024.
 
 [53] H. Du, S. Zhang, B. Xie, G. Nan, J. Zhang, J. Xu, H. Liu, S. Leng, J. Liu, H. Fan et al., “Uncovering what why and how: A comprehensive benchmark for causation understanding of video anomaly,” in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024, pp. 18793–18803.
@@ -252,3 +264,4 @@ The result shows that ITVAD methods, by leveraging large language and multi-moda
 [57] H. Chen, D. Yi, M. Cao, C. Huang, G. Zhu, and J. Wang, “A benchmark for crime surveillance video analysis with large models,” arXiv preprint arXiv:2502.09325, 2025.
 
 [58] Z. Ding, H. Zhang, P. Wu, G. Pang, Z. Yang, P. Wang, and Y. Zhang, “Slowfastvad: Video anomaly detection via integrating simple detector and rag-enhanced vision-language model,” arXiv preprint arXiv:2504.10320, 2025.
+```
