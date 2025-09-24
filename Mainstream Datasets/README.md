@@ -119,7 +119,7 @@ HomePage: [link](https://github.com/daviduarte/camnuvem-dataset)
 
 ### UCVL (Not released) 2024
 
-UCVL (UCF Crime Video Localization) is a new dataset developed by the UCF team for localization of crime events, containing 1699 videos and 13 types of crimes and anomalies, all frame-level annotated. The dataset emphasizes spatio-temporal localization of anomalous events, enhancing practical utility in real surveillance scenarios. Note: This dataset has not been publicly released; refer to the following links for related papers and examples.
+UCVL is a new dataset developed by the UCF team for localization of crime events, containing 1699 videos and 13 types of crimes and anomalies, all frame-level annotated. The dataset emphasizes spatio-temporal localization of anomalous events, enhancing practical utility in real surveillance scenarios. Note: This dataset has not been publicly released; refer to the following links for related papers and examples.
 
 HomePage: Not released
 
@@ -158,3 +158,51 @@ LLM-based Datasets
 | PreVAD (Not released) | Multiple     | 35279         |              | 35                 | Frame         | Video QA      |       |
 | HIVAU-70k             | Multiple     | 5443          | 13,855,489   | 15                 |               | Video QA      | ✔     |
 | UCA                   | Crime        | 1854          | 11,817,597   | 13                 | Frame         | Video QA      | ✔     |
+
+### CUVA 2024
+
+Video Anomaly Understanding (VAU) aims to automatically comprehend anomalous events in videos, enabling a variety of applications such as traffic monitoring and industrial manufacturing. While existing VAU benchmarks primarily focus on anomaly detection and localization, our emphasis is on practicality, prompting us to raise the following key questions: “What anomaly occurred?”, “Why did it happen?”, and “How severe is this anomalous event?” In pursuit of these answers, we propose a comprehensive benchmark for Causal Understanding of Video Anomalies (CUVA). Specifically, each instance in the proposed benchmark involves three sets of human annotations to indicate: what happened, why it happened, and how severe it was, including:
+
+1、Anomaly type, start and end times, and event description;
+
+2、Natural language explanations for the reasons behind the anomaly;
+
+3、Free-text reflecting the impact of the anomaly.
+
+Moreover, we introduce MMEval, a novel evaluation metric designed to better align with human preferences for CUVA, which helps measure how well existing large language models (LLMs) understand the underlying causes and corresponding effects of video anomalies. Finally, we present a novel prompt-based approach as a challenging baseline for CUVA. Extensive experiments demonstrate the superiority of both our evaluation metric and the prompt-based method.
+
+HomePage: [link](https://github.com/fesvhtr/CUVA)
+
+### CUVA 2025
+
+The ECVA dataset is a comprehensive benchmark for video anomaly causal understanding, created by the National Engineering Research Center for Mobile Network Technology at Beijing University of Posts and Telecommunications. This dataset contains 2,240 real-world videos covering 21 major categories and 100 subcategories of anomaly types. Each video has an average length of 141 seconds and includes 621.1 tokens on average. Through manual annotation, the dataset provides detailed descriptions of the type, cause, and impact of each anomaly, aiming to address causal understanding issues in video anomaly detection and localization. The creation process of the ECVA dataset involved crawling data from multiple video platforms and generating detailed anomaly descriptions and causal explanations through human annotation. The dataset is primarily used in the field of video anomaly understanding, aiming to enhance models’ causal reasoning abilities regarding anomalous events in videos.
+
+HomePage: [link](https://modelscope.cn/datasets/gouchenyi/ECVA)
+
+### VANE-Bench 2024
+
+The recent developments in Large Multi-modal Video Models (Video-LMMs) have significantly enhanced our ability to interpret and analyze video data. Despite their impressive capabilities, current Video-LMMs have not been evaluated for anomaly detection tasks, which is critical to their deployment in practical scenarios e.g., towards identifying deepfakes, manipulated video content, traffic accidents and crimes. In this paper, we introduce VANE-Bench, a benchmark designed to assess the proficiency of Video-LMMs in detecting and localizing anomalies and inconsistencies in videos. Our dataset comprises an array of videos synthetically generated using existing state-of-the-art text-to-video generation models, encompassing a variety of subtle anomalies and inconsistencies grouped into five categories: unnatural transformations, unnatural appearance, pass-through, disappearance and sudden appearance. Additionally, our benchmark features real-world samples from existing anomaly detection datasets, focusing on crime-related irregularities, atypical pedestrian behavior, and unusual events. The task is structured as a visual question-answering challenge to gauge the models' ability to accurately detect and localize the anomalies within the videos. We evaluate nine existing Video-LMMs, both open and closed sources, on this benchmarking task and find that most of the models encounter difficulties in effectively identifying the subtle anomalies. In conclusion, our research offers significant insights into the current capabilities of Video-LMMs in the realm of anomaly detection, highlighting the importance of our work in evaluating and improving these models for real-world applications.
+
+HomePage: [link](https://github.com/rohit901/VANE-Bench)
+
+### PreVAD (Not released) 2025
+
+Video anomaly detection models aim to identify events that deviate from expected patterns. In open-world scenarios, however, what is considered “expected” may change as requirements evolve. For instance, not wearing a mask is abnormal during a flu outbreak but normal otherwise. Existing methods generally assume that the definition of anomalies is fixed, making them ill-suited for open-world applications. To address this limitation, we propose a novel open-world VAD (Video Anomaly Detection) paradigm with variable definitions, enabling guided detection through user-provided natural language at inference time. This paradigm requires establishing a robust mapping from both video data and textual definitions to anomaly scores. To this end, we introduce LaGoVAD (Language-guided Open-world VAD), a model that dynamically adapts anomaly definitions using two regularization strategies: (1) diversifying the relative durations of anomalies via dynamic video synthesis, and (2) enhancing feature robustness through contrastive learning with negative mining. Training such adaptable models requires diverse anomaly definitions, but existing datasets typically offer only fixed labels without semantic descriptions. To bridge this gap, we collect PreVAD (Pre-training Video Anomaly Dataset), the largest and most diverse video anomaly dataset to date, comprising 35,279 annotated videos with multi-level category labels and explicit anomaly descriptions. Zero-shot experiments on seven datasets demonstrate state-of-the-art performance.
+
+HomePage: [link](https://arxiv.org/pdf/2503.13160v1)
+
+### HIVAU-70k 2025
+
+How can we enable models to comprehend video anomalies occurring over varying temporal scales and contexts? Traditional Video Anomaly Understanding (VAU) methods focus on frame-level anomaly prediction, often missing the interpretability of complex and diverse real-world anomalies. Recent multimodal approaches leverage visual and textual data but lack hierarchical annotations that capture both short-term and long-term anomalies.
+
+To address this challenge, we introduce HIVAU-70k, a large-scale benchmark for hierarchical video anomaly understanding across any granularity. We develop a semi-automated annotation engine that efficiently scales high-quality annotations by combining manual video segmentation with recursive free-text annotation using large language models (LLMs). This results in over 70,000 multi-granular annotations organized at clip-level, event-level, and video-level segments.
+
+For efficient anomaly detection in long videos, we propose the Anomaly-focused Temporal Sampler (ATS). ATS integrates an anomaly scorer with a density-aware sampler to adaptively select frames based on anomaly scores, ensuring that the multimodal LLM concentrates on anomaly-rich regions, which significantly enhances both efficiency and accuracy. Extensive experiments demonstrate that our hierarchical instruction data markedly improves anomaly comprehension. The integrated ATS and visual-language model outperform traditional methods in processing long videos.
+
+HomePage: [link](https://github.com/pipixin321/HolmesVAU)
+
+### UCA 2024
+
+Surveillance videos are an essential component of daily life with various critical applications, particularly in public security. However, current surveillance video tasks mainly focus on classifying and localizing anomalous events. Existing methods are limited to detecting and classifying the predefined events with unsatisfactory semantic understanding, although they have obtained considerable performance. To address this issue, we propose a new research direction of surveillance video-and-language understanding, and construct the first multimodal surveillance video dataset. We manually annotate the real-world surveillance dataset UCF-Crime with fine-grained event content and timing. Our newly annotated dataset, UCA UCF-Crime Annotation), contains 23,542 sentences, with an average length of 20 words, and its annotated videos are as long as 110.7 hours. Furthermore, we benchmark SOTA models for four multimodal tasks on this newly created dataset, which serve as new baselines for surveillance video-and-language understanding. Through our experiments, we find that mainstream models used in previously publicly available datasets perform poorly on surveillance video, which demonstrates the new challenges in surveillance video-and-language understanding. To validate the effectiveness of our UCA, we conducted experiments on multimodal anomaly detection. The results demonstrate that our multimodal surveillance learning can improve the performance of conventional anomaly detection tasks. All the experiments highlight the necessity of constructing this dataset to advance surveillance AI.
+
+HomePage: [link](https://xuange923.github.io/Surveillance-Video-Understanding)
