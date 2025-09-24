@@ -15,9 +15,13 @@ To provide a unified analytical perspective, we propose a new classification fra
 
 ***In the figure, the flame icon indicates nodes where methods utilizing VLM/LLM have emerged.***
 
-[Publications](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Publications)\
+[Publications](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Publications)
 ----
+In the Publications section, we present both seminal and recent works on VAD according to the Unified framework we propose. 
 
+***We regularly maintain and update this project to ensure convenience for researchers.***
+
+***We also welcome contributions from experts in the field to participate in its ongoing maintenance.***
 
 [Evaluation Metrics](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Evaluation%20Metrics)
 ----
@@ -31,9 +35,9 @@ In the Mainstream Datasets section, we offer a comprehensive overview of various
 
 [Basic Pipeline and Smaples](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Basic%20Pipeline%20and%20Smaples)
 ----
-
+In the Basic Pipeline and Samples, we provide a fundamental pipeline for each category of VAD, along with representative examples of typical works within each category.
 
 [Taxonomy](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/tree/main/Taxonomy)
 ----
-
+In the Taxonomy, we further elaborate on each category of VAD and explain the rationale behind our classification.
 
