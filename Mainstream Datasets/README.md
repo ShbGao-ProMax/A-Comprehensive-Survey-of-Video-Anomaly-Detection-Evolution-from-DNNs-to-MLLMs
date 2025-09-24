@@ -21,6 +21,60 @@ Traditional SVAD Datasets
 | NWPU Campus           | Streetscape  | 547           | 1,466,073    | 28                 | Frame         |               |       |
 | ShanghaiTech          | Streetscape  | 437           | 317,398      | 13                 | Bounding-box  |               |       |
 
+### Subway Entrance 2008
+
+The Subway Entrance dataset is a classic benchmark in video anomaly detection, recorded at the entrance of a New York City subway station. The single long video captures commuters passing through the turnstiles, with a simple background but multiple types of anomalies: wrong direction (passing through the entrance in reverse), jumping over the turnstile, tailgating (multiple people passing with one swipe), and loitering. The dataset consists of one long video with clearly labeled anomalies, making it a common baseline for early methods and frame-level anomaly detection evaluation.
+
+HomePage: [link](https://vision.eecs.yorku.ca/research/anomalous-behaviour-data/sets/)
+
+### Subway Exit 2008
+
+The Subway Exit dataset is also collected at a New York subway station, but at the exit area. The video records people leaving the turnstiles. Anomalies include wrong direction, tailgating, and loitering. While similar to Subway Entrance, this dataset differs in viewpoint, lighting, and flow direction. It consists of one long video, with frame-level annotations, and is often used as a complementary validation set for anomaly detection methods.
+
+HomePage: [link](https://vision.eecs.yorku.ca/research/anomalous-behaviour-data/sets/)
+
+### UMN 2009
+
+The UMN dataset is a classic dataset for behavior anomaly detection, featuring three different scenes (outdoor lawn, indoor lobby, indoor hallway), each with several video clips. In each video, normal behavior (people standing or walking slowly) suddenly shifts to anomalous behavior (all people start running, simulating emergency escape). The anomaly type is single, focusing on collective behavioral changes, making it suitable for testing the sensitivity of anomaly detection algorithms. Provides frame-level annotations, without object-level labels.
+
+HomePage: [link](https://www.crcv.ucf.edu/research/projects/abnormal-crowd-behavior-detection-using-social-force-model/)
+
+### UCSD Ped1 2010
+
+UCSD Ped1 is a landmark dataset for street surveillance anomaly detection, captured at a pathway in UC San Diego. Normal behavior is pedestrians walking in one direction; anomalies include people riding bicycles, skateboards, or vehicles entering the scene, and group running. The dataset contains 70 video clips, with both frame-level and object-level (bounding box) anomaly annotations, enabling precise localization. Its fixed scene and small background variation make it ideal for evaluating detection of small objects and motion anomalies.
+
+HomePage: [link](http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm)
+
+### UCSD Ped2 2010
+
+UCSD Ped2 is similar to Ped1 but features a different camera angle and scene. It consists of 28 video clips, with normal pedestrian traffic and anomalies including bicycles, vehicles, and skateboards entering the scene. Like Ped1, it provides bounding box annotations, but anomalies are more concentrated spatially, making it suitable for evaluating detection of localized anomalies.
+
+HomePage: [link](http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm)
+
+### CUHK Avenue 2017
+
+The CUHK Avenue dataset was recorded at a campus path at the Chinese University of Hong Kong and consists of 37 video clips. Normal behavior involves students walking, while anomalies include sudden running, object throwing, abrupt direction changes, and loitering. The dataset provides object-level (bounding box) annotations for each anomaly, making it suitable for both detection and localization tasks. The background is complex, with moderate pedestrian density and diverse anomalies, testing the generalization capability of methods.
+
+HomePage: [link](https://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html)
+
+###  Street Scene 2020
+
+Street Scene is a large-scale video anomaly detection dataset featuring 81 video clips recorded on a busy city street. Normal behaviors include various traffic participants (pedestrians, bicycles, vehicles), while there are 17 types of anomalies, such as vehicles driving in the wrong direction, cars on sidewalks, jaywalking, and illegal U-turns. All anomalies are annotated with bounding boxes, making the dataset suitable for detection and localization in complex scenes. It offers a rich variety of scenes and targets, and is a popular recent benchmark.
+
+HomePage: [link](https://www.merl.com/research/highlights/video-anomaly-detection)
+
+###  NWPU Campus 2023
+
+NWPU Campus is one of the largest public datasets for campus surveillance anomaly detection, recorded at the Northwestern Polytechnical University. It consists of 547 video clips and over 1.4 million frames. Normal behaviors are typical campus activities, while there are 28 types of anomalies like running, cycling, vehicles entering, and crowd gathering. All anomalies are frame-level annotated, covering broad scenes and diverse anomaly types, making it suitable for training and evaluating large-scale deep learning models. The dataset reflects the diversity and complexity of real-world surveillance.
+
+HomePage: [link](https://campusvad.github.io)
+
+### ShanghaiTech 2017
+
+ShanghaiTech is a large-scale anomaly detection dataset collected from various locations in Shanghai, including campuses, shopping malls, and subway stations. It contains 437 video clips and over 317,000 frames. There are 13 categories of anomalies, such as cycling, running, fighting, and fence climbing. Each anomaly is annotated with bounding boxes, supporting both detection and localization. The diverse scenes and anomaly types make it a challenging and widely used benchmark in current research.
+
+HomePage: [link](https://svip-lab.github.io/dataset/campus_dataset.html)
+
 Traditional WVAD Datasets
 ----
 | Dataset               | Domain       | Video Samples | Total Frames | Anomaly Categories | Location      | Understanding | Audio |
