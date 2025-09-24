@@ -1,5 +1,12 @@
 Mainstream Datasets
 ====
+
+For various VAD tasks, the existing literature provides a wealth of publicly available datasets that encompass diverse scenarios. Specifically, these datasets range from those focused on specific scenes to those covering a wide variety of complex situations. Moreover, differences exist across datasets in terms of the number of videos, average video duration, anomaly categories, and annotation methods. In the following tables, we provide a detailed comparison of the current mainstream datasets. 
+
+***It is worth noting that some datasets were initially designed for specific VAD tasks; however, with the continuous advancement of technology, these datasets can now also be applied to other VAD tasks.***
+
+***For instance, any semi-supervised or weakly supervised VAD dataset can be utilized for evaluating training-free VAD methods.***
+
 Traditional SVAD Datasets
 ----
 | Dataset               | Domain       | Video Samples | Total Frames | Anomaly Categories | Location      | Understanding | Audio |
