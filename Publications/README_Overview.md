@@ -1,4 +1,4 @@
-<img width="4880" height="2560" alt="image" src="https://github.com/user-attachments/assets/a8c6b2b1-d4da-4b98-b146-beddcc3a1de3" /># Publications (Overview)
+# Publications (Overview)
 
 As noted in our survey, research on VAD is experiencing a rapid upswing. A comprehensive tally of all VAD-related studies would likely run into the thousands. Given space constraints, we present representative works from each category of VAD methods. For valuable studies not listed here, please consult the references cited by the works we include. 
 
