@@ -73,6 +73,12 @@ On classic benchmarks like Ped2 and Avenue, the AUC scores of state-of-the-art a
 Weakly Supervised VAD
 ----
 
+![](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/wvad.jpg)
+
+Fig (a) illustrates the one stage MIL paradigm (DeepMIL [18]), while Fig (b) shows the two stage MIL paradigm (MIST [21]).
+
+--------------------------------
+
 Among all conventional DNN-based VAD methods, weakly supervised VAD (WVAD) has consistently been a focal point of research within the academic community. Although research on WVAD began somewhat later than that on SVAD, its use of video-level anomaly annotations aligns more closely with real-world application scenarios. Without the need for extensive manual labeling efforts, WVAD can effectively achieve anomaly detection in complex environments and attain relatively satisfactory detection performance.
 
 As shown, the AUC scores on classic weakly-supervised datasets such as UCF-Crime and XD-Violence have seen steady but incremental improvements over recent years, primarily driven by advances in multiple instance learning and the incorporation of external knowledge (e.g., CLIP-based models). However, due to the low quality of these benchmark datasets and the inherent ambiguity in anomaly frame labeling, it has become increasingly difficult for current WVAD approaches to achieve breakthrough improvements. As a result, while newer methods push the boundaries with more sophisticated modeling techniques, the overall progress on these classic benchmarks has started to plateau, highlighting the urgent need for more reliable and higher-quality datasets to further advance the field.
@@ -118,6 +124,12 @@ As shown, the AUC scores on classic weakly-supervised datasets such as UCF-Crime
 Unsupervised VAD
 ----
 
+![](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/uvad.jpg)
+
+Fig (a) illustrates the method inspired by the OCC paradigm (MC2ST [31]), while Fig (b) shows the method combining the paradigms of SVAD and WVAD (C2FPL [35]).
+
+---------------------------------
+
 Compared to other supervised VAD methods, unsupervised VAD~(UVAD) offers the advantages of eliminating the need for labor-intensive manual annotations and enabling the model to autonomously determine anomaly boundaries. On the one hand, it is difficult to clearly define what constitutes normal human behavior in real-world scenarios; for instance, riding a bicycle on a playground may be considered acceptable, whereas riding in a corridor is often deemed anomalous. On the other hand, it is impractical to anticipate all possible normal events in advance, especially in real-world applications. Therefore, early research into UVAD held significant academic value. However, with the advent of vision-language models and large language models that provide rich pre-trained semantic information, the advantages of UVAD have diminished. Currently, the progress of research in UVAD has been relatively slow.
 
 It can be observed that, although recent approaches have made noticeable advances by integrating ideas from both SVAD and WVAD paradigms, the overall performance on large-scale and complex datasets such as UCF-Crime and XD-Violence still lags behind that of fully supervised or strongly supervised settings. Classic datasets like Ped2 and Avenue see higher AUC scores, indicating that UVAD methods generalize better to simpler scenarios, but struggle in the face of higher diversity and ambiguity. As shown by the recent results of C2FPL~\cite{216_al2024coarse} and CLAP~\cite{al2024collaborative}, even with the development of more sophisticated frameworks, there remains a significant gap to be closed before UVAD methods can match the robustness and accuracy of traditional paradigms on challenging benchmarks.
@@ -160,6 +172,12 @@ It can be observed that, although recent approaches have made noticeable advance
 Open-set VAD
 ----
 
+![](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/osvad.jpg)
+
+Fig (a) illustrates the classic method of OSVAD (Zhu et al. [40]), while Fig (b) shows the classic method of few-shot VAD (Hu et al. [41]).
+
+-----------------------------
+
 Deploying well-trained supervised models to detect unseen anomalies in real-world scenarios is crucial for the practical application of VAD. Since it is impossible to anticipate all possible anomalies in advance, OSVAD was proposed to address this challenge. Unlike traditional closed-set VAD, where anomaly types are predefined and known, OSVAD must identify unforeseen and unknown anomalies. Research on OSVAD is still limited compared to semi-supervised and weakly supervised VAD. Furthermore, with the rapid progress of VLMs and LLMs, OSVAD is gradually being replaced by training-free and instruction-tuned VAD. Due to the scarcity of related research, we focus on describing the few existing methods, rather than following our earlier framework. Generally, OSVAD can be divided into two main categories: open-set VAD and few-shot VAD.
 
 While OSVAD methods have achieved competitive results on certain datasets, their overall performance is still constrained by the limited supervision available for unseen or rare anomaly types. For example, as shown by Zhu et al., the performance notably drops as the number of seen anomaly categories decreases, reflecting the inherent difficulty of open-set settings. Methods based on few-shot learning, such as Hu et al. and Huang et al., demonstrate promising results on simpler datasets like Ped2 and Avenue, but their effectiveness on more complex and large-scale benchmarks remains to be fully validated. Overall, although recent OSVAD approaches have made progress by leveraging meta-learning and cross-domain adaptation, the challenge of reliably detecting truly novel anomalies with minimal supervision still persists, highlighting the need for more robust and generalizable solutions.
@@ -190,6 +208,12 @@ While OSVAD methods have achieved competitive results on certain datasets, their
 Open-vocabulary VAD
 ----
 
+![](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/ovvad.jpg)
+
+Fig (a) illustrates the flowchart of the first method proposed for the OVVAD task (Wu et al. [44]).
+
+------------------------------
+
 In real-world anomaly detection tasks, traditional methods typically rely on predefined anomaly categories or specific event labels, which fall under the paradigm of closed vocabulary. However, in practical applications, the types of anomalies are diverse and often unpredictable, making it difficult for a limited set of labels to cover all potential anomalous scenarios. To address this challenge, open vocabulary VAD has emerged. OVVAD enables models to represent anomalous events using open-ended natural language descriptions, rather than being restricted to the labels or categories seen during training.
 
 Unlike OSVAD, OVVAD emphasizes the “semantic openness” of anomalous events, allowing detection models to recognize a wide array of anomalies described freely in natural language. This means users can query for anomalies using novel phrases (e.g., “someone suddenly collapsing” or “appearance of an unauthorized vehicle”) without predefined labels. Although OVVAD, as an extension of OSVAD, shares objectives and formats with WVAD, instruction-tuned VAD, and TVAD, it remains fundamentally distinct and is thus considered a separate category. Like OSVAD, research on OVVAD is limited, so we focus on describing the few existing methods rather than following our earlier framework.
@@ -212,6 +236,12 @@ The result reflects that OVVAD, as an emerging research direction, is still in i
 
 Training-free VAD
 ----
+
+![](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/tvad.jpg)
+
+Fig (a) illustrates the TVAD method adopts the paradigm of segmented input (LAVAD [47]).
+
+------------------------------
 
 In the field of VAD, severe imbalance between positive and negative samples, as well as difficulties in data annotation, have long been significant factors limiting model performance. With the rapid development of LLMs and MLLMs, researchers have discovered that the vast amount of pre-trained knowledge embedded in these models can be leveraged for anomaly detection without the need for additional model training. In this context, TVAD has emerged. The core idea of TVAD is to utilize the semantic interaction capabilities and multimodal understanding abilities of LLMs and MLLMs to first summarize videos into specific captions, and then analyze these captions to detect anomalies. It is worth noting that, although many works employing such models claim to belong to semi-supervised or weakly supervised VAD, they merely use the same types of data annotations as other VAD paradigms, without any actual model training. Therefore, we also categorize these methods within the scope of TVAD.
 
@@ -239,6 +269,12 @@ The result demonstrates that the TVAD paradigm, which focuses on temporal or seg
 
 Instruction Tuning VAD
 ----
+
+![](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/itvad.jpg)
+
+Fig (a) illustrates the frozen LLM/MLLM & efficient module tuning paradigm (CUVA [53]), while Fig (b) shows the fine-tuning LLM/MLLM paradigm (Holmes-VAU [56]).
+
+-------------------------------
 
 Compared to training-free VAD methods based on LLM/MLLM, constructing anomaly-related datasets and using them to perform instruction tuning on LLMs is also an important paradigm. Instruction tuning enables LLMs to transfer their general knowledge to specific anomaly detection tasks, thereby enhancing the model's understanding and discrimination of abnormal events. In recent years, with the continuous enrichment of open-source video anomaly datasets and advancements in multimodal annotation techniques, more and more researchers are exploring how to instruction-tune LLMs using high-quality abnormal videos and their language descriptions. Moreover, instruction tuning can not only directly update the parameters of the large model itself but also achieve efficient adaptation by freezing the large model and fine-tuning downstream modules. It is worth noting that model architectures under the instruction tuning paradigm are becoming increasingly diverse, including multimodal fusion architectures based on VLMs and LLMs, as well as hybrid models that combine GNNs, Transformers, or RAG to enhance reasoning capabilities.
 
