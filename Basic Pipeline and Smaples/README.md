@@ -73,7 +73,7 @@ On classic benchmarks like Ped2 and Avenue, the AUC scores of state-of-the-art a
 Weakly Supervised VAD
 ----
 
-![](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/wvad.jpg)
+![The Basic Pipeline of WVAD](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/wvad.jpg)
 
 Fig (a) illustrates the one stage MIL paradigm (DeepMIL [18]), while Fig (b) shows the two stage MIL paradigm (MIST [21]).
 
@@ -124,7 +124,7 @@ As shown, the AUC scores on classic weakly-supervised datasets such as UCF-Crime
 Unsupervised VAD
 ----
 
-![](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/uvad.jpg)
+![The Basic Pipeline of UVAD](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/uvad.jpg)
 
 Fig (a) illustrates the method inspired by the OCC paradigm (MC2ST [31]), while Fig (b) shows the method combining the paradigms of SVAD and WVAD (C2FPL [35]).
 
@@ -172,7 +172,7 @@ It can be observed that, although recent approaches have made noticeable advance
 Open-set VAD
 ----
 
-![](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/osvad.jpg)
+![The Basic Pipeline of OSVAD](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/osvad.jpg)
 
 Fig (a) illustrates the classic method of OSVAD (Zhu et al. [40]), while Fig (b) shows the classic method of few-shot VAD (Hu et al. [41]).
 
@@ -208,7 +208,7 @@ While OSVAD methods have achieved competitive results on certain datasets, their
 Open-vocabulary VAD
 ----
 
-![](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/ovvad.jpg)
+![The Basic Pipeline of OVVAD](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/ovvad.jpg)
 
 Fig (a) illustrates the flowchart of the first method proposed for the OVVAD task (Wu et al. [44]).
 
@@ -237,7 +237,7 @@ The result reflects that OVVAD, as an emerging research direction, is still in i
 Training-free VAD
 ----
 
-![](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/tvad.jpg)
+![The Basic Pipeline of TVAD](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/tvad.jpg)
 
 Fig (a) illustrates the TVAD method adopts the paradigm of segmented input (LAVAD [47]).
 
@@ -270,7 +270,7 @@ The result demonstrates that the TVAD paradigm, which focuses on temporal or seg
 Instruction Tuning VAD
 ----
 
-![](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/itvad.jpg)
+![The Basic Pipeline of ITVAD](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/itvad.jpg)
 
 Fig (a) illustrates the frozen LLM/MLLM & efficient module tuning paradigm (CUVA [53]), while Fig (b) shows the fine-tuning LLM/MLLM paradigm (Holmes-VAU [56]).
 
