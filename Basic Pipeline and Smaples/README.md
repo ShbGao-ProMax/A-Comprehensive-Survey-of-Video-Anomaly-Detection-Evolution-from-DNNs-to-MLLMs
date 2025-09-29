@@ -4,6 +4,12 @@ Basic Pipeline, Performance and Smaples
 Semi-supervised VAD
 ----
 
+![The Basic Pipeline of SVAD](https://github.com/ShbGao-ProMax/A-Comprehensive-Survey-of-Video-Anomaly-Detection-Evolution-from-DNNs-to-MLLMs/blob/main/Basic%20Pipeline%20and%20Smaples/BPS%20Pic/svad.jpg)
+
+Fig (a) illustrates the reconstruction paradigm with synthetic pseudo-anomalies (LNRA('Learning not to reconstruct anomalies') in the self-supervised learning framework, while Fig (b) shows the one-class classifier paradigm (BMAN [5]) in one-class classification learning.
+
+--------------------------------
+
 As previously discussed, SVAD only utilizes samples containing normal events during the training phase, making the traditional full supervised learning paradigm inapplicable. To address this issue, the most straightforward approach is to leverage the intrinsic information of the training samples to learn the patterns of normal events or, in other words, define the boundaries of normal events. Generally, the research paradigms for SVAD can be categorized into two main types: self-supervised learning and one-class classification.
 
 On classic benchmarks like Ped2 and Avenue, the AUC scores of state-of-the-art approaches have reached or even surpassed 99\%, indicating that these datasets are nearly saturated. However, on more challenging and recently introduced datasets such as SHTech and UBnormal, the performance is still relatively low, which highlights the limitations in the generalization ability of existing methods. Overall, while recent advances leverage self-supervised learning and multi-modal cues to push performance boundaries, robust SVAD under complex real-world scenarios remains an open research problem.
