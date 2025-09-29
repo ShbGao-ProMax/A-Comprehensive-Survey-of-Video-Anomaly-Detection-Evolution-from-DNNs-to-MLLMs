@@ -1,5 +1,11 @@
 # Publications (Overview)
 
+As noted in our survey, research on VAD is experiencing a rapid upswing. A comprehensive tally of all VAD-related studies would likely run into the thousands. Given space constraints, we present representative works from each category of VAD methods. For valuable studies not listed here, please consult the references cited by the works we include. 
+
+***We also welcome corrections and pointers to overlooked contributions.***
+
+***Our sincere thanks go to all researchers for their outstanding contributions to the VAD community.***
+
 ## SVAD
 
 ### 📖 Before 2016
