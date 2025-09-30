@@ -226,3 +226,104 @@ Cross-Modal Fusion and Attention Mechanism for Weakly Supervised VAD. 📰 `CVPR
 
 BatchNorm-based weakly supervised VAD. 📰 `IEEE TCSVT`
 [paper link]()
+
+## UVAD
+
+### 📖 2017
+
+Unmasking the abnormal events in video. 📰 `ICCV`
+[paper link]()
+
+### 📖 2018
+
+Classifier two-sample test for video anomaly detection. 📰 `BMVC`
+[paper link]()
+
+Detecting abnormality without knowing normality: A two-stage approach for unsupervised video abnormal event detection. 📰 `ACM MM`
+[paper link]()
+
+### 📖 2020
+
+Self-trained deep ordinal regression for end-to-end video anomaly detection. 📰 `CVPR`
+[paper link]()
+
+### 📖 2022
+
+A causal inference look at unsupervised video anomaly detection. 📰 `AAAI`
+[paper link]()
+
+Deep anomaly discovery from unlabeled videos via normality advantage and self-paced refinement. 📰 `CVPR`
+[paper link]()
+
+Detecting anomalous events from unlabeled videos via temporal masked auto-encoding. 📰 `ICME`
+[paper link]()
+
+### 📖 2024
+
+CKNN: Cleansed k-Nearest Neighbor for Unsupervised Video Anomaly Detection. 📰 `ACM CIKM`
+[paper link]()
+
+C2FPL: Coarse-to-fine pseudo-labeling for unsupervised video anomaly detection. 📰 `CIKM`
+[paper link]()
+
+CLAP: Contrastive learning with adaptive positives for unsupervised video anomaly detection. 📰 `CVPR`
+[paper link]()
+
+Interleaving one-class and weakly-supervised models with adaptive thresholding for unsupervised video anomaly detection. 📰 `ECCV`
+[paper link]()
+
+## OSVAD
+
+### 📖 2019
+
+Margin learning embedded prediction for video anomaly detection with a few anomalies (MLEP). 📰 `IJCAI`
+[paper link]()
+
+Graph convolutional label noise cleaner: Train a plug-and-play action classifier for anomaly detection. 📰 `CVPR`
+[paper link]()
+
+### 📖 2021
+
+Towards open set video anomaly detection. 📰 `ECCV`
+[paper link]()
+
+Adaptive anomaly detection network for unseen scene without fine-tuning. 📰 `PRCV`
+[paper link]()
+
+### 📖 2022
+
+Boosting variational inference with margin learning for few-shot scene-adaptive anomaly detection. 📰 `IEEE TCSVT`
+[paper link]()
+
+### 📖 2023
+
+zxVAD: Zero-shot cross-domain video anomaly detection via untrained CNN priors. 📰 `WACV`
+[paper link]()
+
+### 📖 2024
+
+Anomaly heterogeneity learning for open-set supervised anomaly detection. 📰 `CVPR` [图像开集AD，但对视频OSVAD有参考价值]
+[paper link]()
+
+CKNN-OS: Cleansed nearest neighbor for open-set anomaly detection. 📰 `NeurIPS Workshops`
+[paper link]()
+
+## OVVAD
+
+### 📖 2023
+
+EVA-CLIP: Improved training techniques for CLIP at scale. 📰 `arXiv` [基础工作：EVA-CLIP]
+[paper link]()
+
+### 📖 2024
+
+Open-vocabulary video anomaly detection. 📰 `CVPR`
+[paper link]()
+
+### 📖 2025
+
+Detecting contextual anomalies by discovering consistent spatial regions. 📰 `arXiv`
+[paper link]()
+
+LaGoVAD: Language-guided open-world video anomaly detection. 📰 `arXiv`
+[paper link]()
