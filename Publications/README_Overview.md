@@ -327,3 +327,68 @@ Detecting contextual anomalies by discovering consistent spatial regions. 📰 `
 
 LaGoVAD: Language-guided open-world video anomaly detection. 📰 `arXiv`
 [paper link]()
+
+## TVAD
+
+### 📖 2023
+
+Video-ChatGPT: Towards detailed video understanding via large vision and language models. 📰 `arXiv` [基础工作：视频多模态大模型]
+[paper link]()
+
+Multimodal motion conditioned diffusion model for skeleton-based VAD. 📰 `ICCV`
+[paper link]()
+
+### 📖 2024
+
+Harnessing large language models for training-free video anomaly detection (LAVAD). 📰 `CVPR`
+[paper link]()
+
+Follow the rules: Reasoning for video anomaly detection with large language models (AnomalyRuler). 📰 `ECCV`
+[paper link]()
+
+InternVL2 technical report. 📰 arXiv
+[paper link]()
+
+### 📖 2025
+
+VERA: Explainable video anomaly detection via verbalized learning of VLMs. 📰 `CVPR`
+[paper link]()
+
+SUVAD: Semantic understanding based video anomaly detection using MLLM. 📰 `ICASSP`
+[paper link]()
+
+Video anomaly detection with structured keywords (VADSK). 📰 `arXiv`
+[paper link]()
+
+## ITVAD
+
+### 📖 2024
+
+Video anomaly detection and explanation via large language models (VADLlama). 📰 `arXiv`
+[paper link]()
+
+VLAVAD: Vision-language assisted video anomaly detection. 📰 `arXiv`
+[paper link]()
+
+CUVA: Causal video anomaly understanding with instruction-tuned VLMs. 📰 `arXiv`
+[paper link]()
+
+HAWK: Learning to understand open-world video anomalies. 📰 `NeurIPS`
+[paper link]()
+
+### 📖 2025
+
+VERA: Explainable video anomaly detection via verbalized learning of VLMs. 📰 `CVPR`
+[paper link]()
+
+Holmes-VAU: Towards long-term video anomaly understanding at any granularity. 📰 `CVPR`
+[paper link]()
+
+AssistPDA: An online video surveillance assistant for prediction, detection, and analysis. 📰 `arXiv`
+[paper link]()
+
+SlowFastVAD: Retrieval-augmented VLM for efficient anomaly detection. 📰 `arXiv`
+[paper link]()
+
+MissionGNN: Hierarchical multimodal GNN-based weakly supervised video anomaly recognition with mission-specific knowledge graph generation. 📰 `WACV`
+[paper link]()
